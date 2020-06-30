@@ -3,6 +3,9 @@ using an HIKING DDS238-2 ZN/S energy meter for the mains and a EPEVER TRACER AN-
 
 read-out with ESP8266 by Modbus over RS-485
 
+# Hardware
+
+
 # Hiking DDS238-2 ZN/S energy meter
 
 ### Modbus holding registers:
