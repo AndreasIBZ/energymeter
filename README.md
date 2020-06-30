@@ -1,7 +1,7 @@
 # Energymetering your home and solar with Blynk
 using an HIKING DDS238-2 ZN/S energy meter for the mains and a EPEVER TRACER A/B-Series charge controller for your solar - Communication through Modbus over RS-485 by ESP8266
 
-![Screenshot Blynk App_Sketch1](Screenshot_Blynk_Sketch.jpg) ![Screenshot Blynk App_Sketch2](Screenshot_Blynk_Sketch2.jpg)
+![Screenshot Blynk App_Sketch1](images/Screenshot_Blynk_Sketch.jpg) ![Screenshot Blynk App_Sketch2](images/Screenshot_Blynk_Sketch2.jpg)
 
 
 ### Resources / Credits to
@@ -70,7 +70,7 @@ As we have two Slave devices on the Modbus, we have to give them different Slave
 #### Clone my Blynk App Project Scetch and get your Auth Token
 * Open the Blynk mobile app and register / log in
 * Clone my Project Sketch "Balkonsolaranlage" by scanning the following QR code
-![Blynk AP Project Sketch QR Code](QR-CODE_BALCONY_DDS238_TRACER.png)
+![Blynk AP Project Sketch QR Code](images/QR-CODE_BALCONY_DDS238_TRACER.png)
 * Send yourself the generated Auth Token (Project Setting > Devices > DDS238-TRACER > DDS238-TRACER > Refresh - tapping the Auth Token copies it to clipboard)
 
 #### Change the details in settings.h
