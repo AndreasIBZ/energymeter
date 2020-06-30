@@ -4,7 +4,9 @@ read-out with ESP8266 by Modbus over RS-485
 
 ### Resources / Credits to
 support forum on the Blynk community forums: https://community.blynk.cc/t/epsolar-tracer-2210a-charge-controller-blynk-epic-solar-monitor/10596
+
 jaminNZx on GitHub: https://github.com/jaminNZx/Tracer-RS485-Modbus-Blynk
+
 tekk on GitHub: https://github.com/tekk/Tracer-RS485-Modbus-Blynk-V2
 
 ### Hardware
@@ -17,7 +19,7 @@ tekk on GitHub: https://github.com/tekk/Tracer-RS485-Modbus-Blynk-V2
 
 ### Software 
 * [Blynk](http://www.blynk.cc/) Mobile App ([iOS](https://apps.apple.com/us/app/blynk-iot-for-arduino-rpi/id808760481) & [Android](https://play.google.com/store/apps/details?id=cc.blynk&hl=en))
-* Blynk Project sketch (QR-Code to clone mine)
+* Blynk App Project sketch (you can use the QR-Code to clone mine)
 * Arduino IDE 1.8.7+
 * Arduino Project sketch files (ESP8266_DDS238_TRACER_Modbus_Blynk.ino, settings.h)
 * Terminal Software like puTTY to show Serial Data
@@ -63,10 +65,10 @@ As an alternative way to get debug info over serial i use a TTL-to-RS232-Convert
 #### Change Slave ID of DDS238 to 2
 As we have two Slave devices on the Modbus, we have to give them different SlaveIDs. From factory both devices come with SlaveID = "1". I decided to change de SlaveID of the DDS238 to "2" (instead of doing so with the TRACER) and created a small sketch to handle this: ESP8266_DDS238_Change_Modbus_SlaveID.ino - adapt the settings section to your needs, disconnect the TRACER and upload & run the code.
 
-#### Clone my Blynk App project and get your Auth Token
+#### Clone my Blynk App Project Scetch and get your Auth Token
 * Open the Blynk mobile app and register / log in
-* Clone my project by scanning the following QR code
-![Project QR Code](http://i.imgur.com/xBEmJyJ.jpg)
+* Clone my Project Sketch by scanning the following QR code
+![Blynk AP Project Sketch QR Code]()
 * Send yourself the generated Auth Token (Project Setting > Devices > DDS238-TRACER > DDS238-TRACER > Refresh - tapping the Auth Token copies it to clipboard)
 
 #### Change the details in settings.h
