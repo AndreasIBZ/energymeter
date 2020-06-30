@@ -7,6 +7,15 @@ read-out with ESP8266 by Modbus over RS-485
 
 
 # Hiking DDS238-2 ZN/S energy meter
+# Wiring
+
+## Wiring RS485 UART Module to HIKING DDS238 & EPEVER TRACER
+Cut open your ethernet cable and split out pins 3/4, 5/6, 7/8 (B, A, GND)
+| Signal | DDS238           | TRACER             |
+|--------|------------------|--------------------|
+|   A+   | Clamp 8 (RS485A) | RJ45 Pin 5+6 (A+)  |
+|   B-   | Clamp 7 (RS485B) | RJ45 Pin 3+4 (B-)  |
+|  GND   |  n.c.            | RJ45 Pin 7+8 (GND) |
 
 ### Modbus holding registers:
 
