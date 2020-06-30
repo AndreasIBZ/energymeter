@@ -1,7 +1,7 @@
 # Energymetering your home and solar with Blynk
 using an HIKING DDS238-2 ZN/S energy meter for the mains and a EPEVER TRACER A/B-Series charge controller for your solar
 
-![Screenshot Blynk App_Sketch](Screenshot_Blynk_Sketch.jpg)
+![Screenshot Blynk App_Sketch1](Screenshot_Blynk_Sketch.jpg) ![Screenshot Blynk App_Sketch2](Screenshot_Blynk_Sketch2.jpg)
 
 Communication through Modbus over RS-485 by ESP8266
 
