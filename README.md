@@ -1,9 +1,8 @@
 # Energymetering your home and solar with Blynk
-using an HIKING DDS238-2 ZN/S energy meter for the mains and a EPEVER TRACER A/B-Series charge controller for your solar
+using an HIKING DDS238-2 ZN/S energy meter for the mains and a EPEVER TRACER A/B-Series charge controller for your solar - Communication through Modbus over RS-485 by ESP8266
 
 ![Screenshot Blynk App_Sketch1](Screenshot_Blynk_Sketch.jpg) ![Screenshot Blynk App_Sketch2](Screenshot_Blynk_Sketch2.jpg)
 
-Communication through Modbus over RS-485 by ESP8266
 
 ### Resources / Credits to
 support forum on the Blynk community forums: https://community.blynk.cc/t/epsolar-tracer-2210a-charge-controller-blynk-epic-solar-monitor/10596
@@ -109,8 +108,7 @@ Copy `settings.h` to your Arduino sketch folder. In the Arduino Sketch the infor
 * Check debug info appearing in your serial terminal 
 * Load the Blynk project in your mobiel and hit the PLAY button to start receiving data
 
-# Technical data
-## Hiking DDS238-2 ZN/S energy meter
+## Technical data Hiking DDS238-2 ZN/S energy meter
 ### Modbus holding registers
 
 | Register(s) | Meaning         | Scale Unit | Data format    | R/W |
@@ -164,5 +162,5 @@ Value mapping, default 1.
 The meter does not understand the 'write sigle register' function code (06h),
 only the 'write multiple registers' function code (10h).
 
-## License
+# License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">energymeter</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">@Andreas_IBZ (Telegram)</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
