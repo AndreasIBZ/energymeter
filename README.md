@@ -68,7 +68,7 @@ As we have two Slave devices on the Modbus, we have to give them different Slave
 #### Clone my Blynk App Project Scetch and get your Auth Token
 * Open the Blynk mobile app and register / log in
 * Clone my Project Sketch by scanning the following QR code
-![Blynk AP Project Sketch QR Code]()
+![Blynk AP Project Sketch QR Code](QR-CODE_BALCONY_DDS238_TRACER.png)
 * Send yourself the generated Auth Token (Project Setting > Devices > DDS238-TRACER > DDS238-TRACER > Refresh - tapping the Auth Token copies it to clipboard)
 
 #### Change the details in settings.h
