@@ -75,11 +75,30 @@ As we have two Slave devices on the Modbus, we have to give them different Slave
 * Send yourself the generated Auth Token (Project Setting > Devices > DDS238-TRACER > DDS238-TRACER > Refresh - tapping the Auth Token copies it to clipboard)
 
 #### Change the details in settings.h
-Copy `settings.h` to your Arduino sketch folder. In the Arduino Sketch the information is refered to by using ```#include <settings.h>```
+Copy `settings.h` to your Arduino sketch folder. In the Arduino Sketch the information is refered to by using `#include <settings.h>`
 * Change your WiFi credentials
+
+`#define WIFI_SSID					"YOUR-SSID-HERE"`
+
+`#define WIFI_PASS					"YOUR-WIFI-PASSWORD-HERE"`
+
 * Change your OTA-Hostname
+
+`#define OTA_HOSTNAME					"DDS238-TRACER-BALCONY"`
+
 * Paste your Blynk Auth Token 
+
+`#define AUTH						"YOUR-BLYNK-AUTH-TOKEN-HERE" `
+
 * Adapt the Blynk-Server Details to your needs
+
+`// Local Server Settings - Comment out to use Cloud Server`
+
+`#define USE_LOCAL_SERVER`
+
+`#define SERVER           				IPAddress(255,255,255,255) `
+
+`#define SERVER_PORT       				8080`
 
 #### Let's play!
 * Open a serial terminal (puTTY) to show debug info
