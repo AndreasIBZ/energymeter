@@ -1,6 +1,7 @@
 # Energymetering your home and solar with Blynk
 using an HIKING DDS238-2 ZN/S energy meter for the mains and a EPEVER TRACER A/B-Series charge controller for your solar
-read-out with ESP8266 by Modbus over RS-485
+
+Communication through Modbus over RS-485 by ESP8266
 
 ### Resources / Credits to
 support forum on the Blynk community forums: https://community.blynk.cc/t/epsolar-tracer-2210a-charge-controller-blynk-epic-solar-monitor/10596
@@ -115,7 +116,7 @@ Copy `settings.h` to your Arduino sketch folder. In the Arduino Sketch the infor
 
 ##### Note 1:
 
-Total, export and import energy counters can erased writing 0 in total energy
+Total, export and import energy counters can be erased writing 0 in total energy
 registers.
 
 ##### Note 2:
@@ -141,6 +142,3 @@ Value mapping, default 1.
 
 The meter does not understand the 'write sigle register' function code (06h),
 only the 'write multiple registers' function code (10h).
-
-## EPEVER TRACER A-Series Charge Controller
-### Modbus holding registers
