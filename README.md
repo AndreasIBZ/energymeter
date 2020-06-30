@@ -3,13 +3,13 @@ using an HIKING DDS238-2 ZN/S energy meter for the mains and a EPEVER TRACER A/B
 
 read-out with ESP8266 by Modbus over RS-485
 
-# Hardware
+## Hardware
 
 
 # Hiking DDS238-2 ZN/S energy meter
-# Wiring
+### Wiring
 
-## Wiring RS485 UART Module to HIKING DDS238 & EPEVER TRACER
+#### Wiring RS485 UART Module to HIKING DDS238 & EPEVER TRACER
 Cut open your ethernet cable and split out pins 3/4, 5/6, 7/8 (B, A, GND)
 | Signal | DDS238           | TRACER             |
 |--------|------------------|--------------------|
