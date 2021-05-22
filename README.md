@@ -19,7 +19,8 @@ tekk on GitHub: https://github.com/tekk/Tracer-RS485-Modbus-Blynk-V2
 * ESP8266 Dev Board (NodeMCU)
 * An old ethernet cable with RJ45 connector to cut open
 
-### Software 
+### Software
+* either the blynk.io Cloud version or a self hosted instance of [Blynk Server](https://github.com/blynkkk/blynk-server)
 * [Blynk](http://www.blynk.cc/) Mobile App ([iOS](https://apps.apple.com/us/app/blynk-iot-for-arduino-rpi/id808760481) & [Android](https://play.google.com/store/apps/details?id=cc.blynk&hl=en))
 * Blynk App Project sketch (you can use the QR-Code to clone mine)
 * Arduino IDE 1.8.7+
